@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title></title>		
+		<script>			
+			/*			
+			var i,j;
+			var Num = [];
+			var	n = parseInt(prompt('How Many Digits You Want To Enter','Only Integer Number Please!'));
+			for(i=0;i<n;i++){
+				Num[i] = parseInt(prompt('Number: '+(i+1)));
+			}
+			for(j=0;j<n;j++)	
+			{
+				if(Num[j]%2===0)
+					document.write(Num[j]+ " Even <br/>");
+				else
+					document.write(Num[j]+ " ODD <br/>");
+			}
+			
+			
+			var i,j;
+			var	n = parseInt(prompt('How Many Digits You Want To Enter','Only Integer Number Please!'));
+			for(i=0;i<=n;i++)
+			{
+				for(j=0;j<i;j++){
+					document.write("*");
+				}
+				document.write("<br/>");
+			}
+			for(i=n;i>=0;i--)
+			{
+				for(j=0;j<i;j++)
+					document.write("*");
+				document.write("<br/>");
+			}*/
+			
+			var i,j;
+			var	n = parseInt(prompt('How Many Digits You Want To Enter','Only Integer Number Please!'));
+			for(i=0;i<=n;i++)
+			{
+				for(j=n;j>=0;j--){
+					document.write("&nbsp");
+					
+				}
+				for(j=0;j<i;j++){
+					document.write("*");
+				}
+				
+				document.write("<br/>");
+			}
+		</script>		
+	</head>
+	<body>		
+	</body>	
+</html>
